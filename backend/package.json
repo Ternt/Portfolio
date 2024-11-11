@@ -1,12 +1,11 @@
 {
-  "name": "server",
+  "name": "backend",
   "version": "1.0.0",
   "description": "backend for my personal portfolio site",
-  "type": "commonjs",
+  "type": "module",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm start"
+    "watch:server": "nodemon -w server.js -w \"../frontend/dist/\""
   },
   "author": "Thinh Pham",
   "license": "ISC",
