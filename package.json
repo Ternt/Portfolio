@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A little portfolio site from scratch to learn the in and outs of web development.\r Starting with a NodeJS server and combining that with ReactJS to be able to use\r components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ternt/Portfolio.git"
+  },
+  "author": "Thinh T. Pham",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Ternt/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Ternt/Portfolio#readme"
+}
