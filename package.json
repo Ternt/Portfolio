@@ -1,28 +1,14 @@
 {
-	"name": "portfolio",
-	"version": "1.0.0",
-	"description": "A little portfolio site from scratch to learn the in and outs of web development.\r Starting with a NodeJS server and combining that with ReactJS to be able to use\r components.",
-	"author": "Thinh T. Pham",
-	"license": "UNLICENSED",
-	"main": "index.js",
-	"packageManager": "yarn@4.4.1",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/Ternt/Portfolio.git"
-	},
-	"workspaces": [
-		"backend",
-		"frontend"
-	],
-	"scripts": {
-		"dev": "concurrently \"yarn workspace frontend run build:dev\" \"yarn workspace backend run watch:server\""
-	},
-	"engines": {
-		"npm": "please-use-yarn",
-		"node": ">=20.12.2",
-		"yarn": ">=1.22.0"
-	},
-	"dependencies": {
-		"concurrently": "^9.1.0"
-	}
+  "name": "portfolio",
+  "packageManager": "yarn@4.4.1",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": ""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
 }
