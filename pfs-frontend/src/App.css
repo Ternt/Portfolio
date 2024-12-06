@@ -1,0 +1,56 @@
+
+#pfs-page-alignment {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #22231D;
+}
+
+#pfs-page-fg {
+    width: 75vw;
+    height: 100%;
+    background-color: #22231D;
+}
+
+
+#pfs-page-bg {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #22231D;
+    z-index: -1000;
+}
+
+.pfs-top-bar {
+}
+
+
+#pfs-top-bar {
+    display: flex;
+}
+
+
+#pfs-name-banner-container {
+    margin: 2vh 0 2vh 0;
+    padding: 10px;
+}
+
+
+#pfs-name-banner-text {
+    margin: 0px;
+    padding: 0px;
+    color: #FCC647;
+    text-align: center;
+    font-size: 1em;
+}
+
+
+
+.pfs-table { 
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+
+

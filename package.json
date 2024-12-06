@@ -1,28 +1,28 @@
 {
-	"name": "portfolio",
+	"name": "Portfolio",
+	"description": "",
 	"version": "1.0.0",
-	"description": "A little portfolio site from scratch to learn the in and outs of web development.\r Starting with a NodeJS server and combining that with ReactJS to be able to use\r components.",
+	"main": "index.js",
 	"author": "Thinh T. Pham",
 	"license": "UNLICENSED",
-	"main": "index.js",
-	"packageManager": "yarn@4.4.1",
+	"private": true,
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Ternt/Portfolio.git"
+		"url": "git+https://github.com/Ternt/Google-Maps-Flight-Simulator.git"
 	},
 	"workspaces": [
-		"backend",
-		"frontend"
+		"pfs-backend",
+		"pfs-frontend"
 	],
-	"scripts": {
-		"dev": "concurrently \"yarn workspace frontend run build:dev\" \"yarn workspace backend run watch:server\""
-	},
+	"packageManager": "yarn@4.4.1",
 	"engines": {
-		"npm": "please-use-yarn",
 		"node": ">=20.12.2",
 		"yarn": ">=1.22.0"
 	},
-	"dependencies": {
+	"scripts": {
+		"dev": "concurrently \"yarn workspace pfs-backend server\" \"yarn workspace pfs-frontend build\""
+	},
+	"devDependencies": {
 		"concurrently": "^9.1.0"
 	}
 }

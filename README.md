@@ -1,7 +1,6 @@
-A little portfolio site from scratch to learn the in and outs of web development.
-Starting with a NodeJS server and combining that with ReactJS to be able to use
-components.
+# Google Maps Flight Simulator #
 
-Tech stack for now
-- NodeJS server
-- ReactJS for the frontend
+## Description
+A flight simulator on the web using WebGL and Google's photorealistic map tiling API. (_currently only using webGL_)
+
+
