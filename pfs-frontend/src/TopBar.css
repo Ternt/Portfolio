@@ -1,0 +1,12 @@
+.top-bar {
+    display: flex;
+}
+.top-bar-content {
+}
+.name-banner-container {
+    padding: var(--size-16);
+}
+.name-banner-text {
+    color: #FCC647;
+    text-align: center;
+}

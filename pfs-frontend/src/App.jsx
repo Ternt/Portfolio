@@ -1,29 +1,53 @@
-import React, { useState, useRef } from 'react';
-import ProjectCard from './ProjectCard/ProjectCard.jsx'
 import './App.css'
 
-function App() {
-    const [inProp, setInProp] = useState(false);
-    const nodeRef = useRef(null);
+function NavBar() {
+    const domainName = window.location.hostname;
+    return (
+        <div className='navbar'>
+            <header className='navbar-home-link'>
+                <a href='/'>{domainName}</a>
+            </header>
+            <header className='navbar-menubar-items'>
+                <div className='navbar-menu-item'>
+                    <a href='/about'>About Me</a>
+                </div>
+                <div className='navbar-menu-item'>
+                    <a href='/posts'>Posts</a>
+                </div>
+                <div className='navbar-menu-item'>
+                    <a href='/contact'>Contact</a>
+                </div>
+            </header>
+        </div>
+    )
+}
 
+function Body() {
+    return (
+        <div className='home'>
+            <div className='hero'>
+                <div className='intro-text'>
+                    <span>Hi!, I am </span>
+                    <a className='intro-name-link' href='/about'>Kyle Pham</a>
+                </div>
+                <span className='position'>software engineer</span>
+            </div>
+        </div>
+    )
+}
+
+function App() {
     return (
         <>
-            <div id='pfs-page-alignment'>
-                <div id='pfs-page-fg'>
-                    <div class='top-bar'>
-                        <div id='pfs-top-bar-content'>
-                            <div id='pfs-name-banner-container'>
-                                <h1 id='pfs-name-banner-text'>
-                                    Kyle Pham
-                                </h1>
-                            </div>
-                            <div id='pfs-nav-bar'></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <NavBar/>
+            <Body/>
+            <footer className='footer'>
+                patented trademarked copyrighted copylefted copyup-down-allaround
+            </footer>
         </>
     )
 }
+
+
 
 export default App
