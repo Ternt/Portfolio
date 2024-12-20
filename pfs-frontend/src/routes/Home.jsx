@@ -1,4 +1,4 @@
-import './App.css'
+import './home.css'
 
 function NavBar() {
     const domainName = window.location.hostname;
@@ -36,7 +36,7 @@ function Body() {
     )
 }
 
-function App() {
+function Home() {
     return (
         <>
             <NavBar/>
@@ -48,6 +48,4 @@ function App() {
     )
 }
 
-
-
-export default App
+export default Home 
