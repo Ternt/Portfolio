@@ -28,9 +28,8 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    margin: 0 auto;
     padding: 0;
-    width: 60rem;
+    margin: 0 auto;
 }
 </style>
 
