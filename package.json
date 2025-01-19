@@ -1,28 +1,19 @@
 {
 	"name": "Portfolio",
 	"description": "",
-	"version": "1.0.0",
-	"main": "index.js",
-	"author": "Thinh T. Pham",
-	"license": "UNLICENSED",
 	"private": true,
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/Ternt/Google-Maps-Flight-Simulator.git"
-	},
-	"workspaces": [
-		"pfs-backend",
-		"pfs-frontend"
-	],
-	"packageManager": "yarn@4.4.1",
-	"engines": {
-		"node": ">=20.12.2",
-		"yarn": ">=1.22.0"
-	},
-	"scripts": {
-		"dev": "concurrently \"yarn workspace pfs-backend server\" \"yarn workspace pfs-frontend build\""
-	},
-	"devDependencies": {
-		"concurrently": "^9.1.0"
-	}
+    "scripts": {
+        "hello": "echo world!",
+        "build": "npx webpack build --mode=production",
+        "start": "npx webpack serve"
+    },
+    "devDependencies": {
+        "babel-loader": "^9.2.1",
+        "css-loader": "^7.1.2",
+        "html-webpack-plugin": "^5.6.3",
+        "style-loader": "^4.0.0",
+        "webpack": "^5.97.1",
+        "webpack-cli": "^6.0.1",
+        "webpack-dev-server": "^5.2.0"
+    }
 }
