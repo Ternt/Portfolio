@@ -4,7 +4,7 @@
 	"private": true,
     "scripts": {
         "hello": "echo world!",
-        "build": "npx webpack build --mode=production",
+        "build": "npx webpack build",
         "start": "npx webpack serve"
     },
     "devDependencies": {
