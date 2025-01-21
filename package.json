@@ -2,18 +2,19 @@
 	"name": "Portfolio",
 	"description": "",
 	"private": true,
-    "scripts": {
-        "hello": "echo world!",
-        "build": "npx webpack build",
-        "start": "npx webpack serve"
-    },
-    "devDependencies": {
-        "babel-loader": "^9.2.1",
-        "css-loader": "^7.1.2",
-        "html-webpack-plugin": "^5.6.3",
-        "style-loader": "^4.0.0",
-        "webpack": "^5.97.1",
-        "webpack-cli": "^6.0.1",
-        "webpack-dev-server": "^5.2.0"
-    }
+	"scripts": {
+		"hello": "echo world!",
+		"build": "npx webpack build",
+		"start": "npx webpack serve"
+	},
+	"devDependencies": {
+		"babel-loader": "^9.2.1",
+		"copy-webpack-plugin": "^12.0.2",
+		"css-loader": "^7.1.2",
+		"html-webpack-plugin": "^5.6.3",
+		"style-loader": "^4.0.0",
+		"webpack": "^5.97.1",
+		"webpack-cli": "^6.0.1",
+		"webpack-dev-server": "^5.2.0"
+	}
 }

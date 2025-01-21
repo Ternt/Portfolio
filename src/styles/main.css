@@ -4,7 +4,7 @@
     --text-primary: #fdfdfd;
     --text-secondary: #e6b753;
     --text-secondary-highlight: #ef8700;
-    --font-size-normal: 16px;
+    --font-size-normal: 14px;
 }
 body {
     height: 100vh;
@@ -14,7 +14,7 @@ body {
     background-color: var(--secondary-bg-color);
     margin: 0 auto 0 auto;
     font-family: 'Courier New', monospace;
-    font-size: 18px;
+    font-size: 16px;
     display: flex;
     flex-direction: column;
 }
@@ -35,12 +35,17 @@ a:link,
 a:hover,
 a:visited,
 a:active{
-  text-decoration: none;
+    text-decoration: none;
 }
 
 @keyframes text-highlight {
 from { color: inherit; }
 to { color: var(--text-secondary); }
+}
+@keyframes move-text {
+0% { bottom: 0em; }
+50% { bottom: 0.3em; }
+100% { bottom: 0em; }
 }
 
 .container {
@@ -55,6 +60,9 @@ to { color: var(--text-secondary); }
 }
 .highlight:active {
     color: var(--text-secondary-highlight);
+}
+.inherit-color {
+    color: inherit;
 }
 .secondary-color {
     color: var(--text-secondary);
